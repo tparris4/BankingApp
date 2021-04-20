@@ -19,6 +19,7 @@ bool checkAccountExists(std::vector<std::unique_ptr<Account>> accounts, std::uni
     if(std::find(accounts.begin(), accounts.end(), acc) != accounts.end()){
         std::cout << "You do not have an account of this type" << std::endl;
         return false;
+        //test 
 }
 
     else{
